@@ -65,7 +65,7 @@ train_data, test_data = prep_data.randomSplit([0.8,0.2], seed =1)
 train_data.groupBy('label').count().show()
 test_data.groupBy('label').count().show()
 ````
-!()[https://github.com/JingtaoQ/BigDataFramework/blob/part2/split%20dataset.png]
+![split](https://github.com/JingtaoQ/BigDataFramework/blob/part2/split%20dataset.png
 
 Define the accuracy 
 `````
